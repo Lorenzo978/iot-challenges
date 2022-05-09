@@ -55,10 +55,8 @@ module prova @safe()
 }
 implementation
 {
-   int q[20];
-   uint32_t cdp;
-   int count = 0;
-   int count_event; 
+   uint32_t cdp = 10824742;
+   //int stop = 0;
    int temp;
    int i;
    uint8_t led0 = 0x01;
@@ -78,14 +76,7 @@ implementation
 		}
 			
 	  }
-	for (cdp = 10824742; cdp != 0; cdp = cdp/3) {
-   		q[count] = cdp % 3;
-   		//printf("count: %d, rest:%d, ",count,q[count]);
-   		//printf("personal code:%ld \n",cdp);
-   		count++;
-	}
 
-    count_event = 0;
     call Timer0.startPeriodic( 1000 );
     //printf("ehi %u \n",call Leds.get());
     printfflush();
@@ -93,41 +84,36 @@ implementation
 
   event void Timer0.fired()
   {
+  	temp = cdp % 3;
+  	cdp = cdp / 3;
+	
+	if(temp == 2){
+		call Leds.led2Toggle();
+		state = state ^ led2;
+	}
+	else if(temp == 1){
+		call Leds.led1Toggle();
+		state = state ^ led1;
+	}
+	else{
+		call Leds.led0Toggle();
+		state = state ^ led0;
+	}
+	
+	for (i = 2; 0 <= i; i--) {
+		printf("%c", ((state)  & (1 << i)) ? '1' : '0');
+		if(i!=0){
+			printf(",");
+		}else{
+			printf("\n");
+		}
+			
+	 }
 
-    if(count_event < count){
-
-    	temp = q[count -1 - count_event];
-
-    	//printf("count_event: %d, led: %d\n",count_event,temp);
-		
-    	if(temp == 2){
-    		call Leds.led2Toggle();
- 			state = state ^ led2;
-    	}
-    	else if(temp == 1){
-    		call Leds.led1Toggle();
-			state = state ^ led1;
-    	}
-    	else{
-    		call Leds.led0Toggle();
-			state = state ^ led0;
-    	}
-    	
-    	for (i = 2; 0 <= i; i--) {
-			printf("%c", ((state)  & (1 << i)) ? '1' : '0');
-			if(i!=0){
-				printf(",");
-			}else{
-				printf("\n");
-			}
-				
-		  }
-
-    	count_event++;
-   	 	printfflush();
-    }else{
-    	call Timer0.stop();
-    }
+ 	printfflush();
+    if(cdp == 0){
+		call Timer0.stop();
+	}
   }
 
 }
