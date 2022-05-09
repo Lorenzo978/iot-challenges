@@ -56,7 +56,6 @@ module prova @safe()
 implementation
 {
    uint32_t cdp = 10824742;
-   //int stop = 0;
    int temp;
    int i;
    uint8_t led0 = 0x01;
@@ -66,7 +65,7 @@ implementation
 
   event void Boot.booted()
   {
-  	//print the initial state
+  	
 	for (i = 2; 0 <= i; i--) {
 		printf("%c", ((state)  & (1 << i)) ? '1' : '0');
 		if(i!=0){
@@ -78,7 +77,6 @@ implementation
 	  }
 
     call Timer0.startPeriodic( 1000 );
-    //printf("ehi %u \n",call Leds.get());
     printfflush();
   }
 
