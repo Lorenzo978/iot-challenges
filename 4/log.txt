@@ -1,1 +1,180 @@
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initializing mac....
+Initializing radio channels....
+    using topology file: topology.txt
+    using noise file: meyer-heavy.txt
+Initializing simulator....
+Activate debug message on channel init
+Activate debug message on channel boot
+Activate debug message on channel radio
+Activate debug message on channel radio_send
+Activate debug message on channel radio_ack
+Activate debug message on channel radio_rec
+Activate debug message on channel radio_pack
+Activate debug message on channel role
+Creating node 1...
+>>>Will boot at time 0 [sec]
+Creating node 2...
+>>>Will boot at time 24 [sec]
+Creating radio channels...
+>>>Setting radio channel from node  1  to node  2  with gain  -60.0  dBm
+>>>Setting radio channel from node  2  to node  1  with gain  -60.0  dBm
+Initializing Closest Pattern Matching (CPM)...
+Reading noise model data file: meyer-heavy.txt
+Loading:##Done!
+>>>Creating noise model for node: 1
+>>>Creating noise model for node: 2
+Start simulation with TOSSIM! 
 
+
+
+DEBUG (1): Application booted.
+DEBUG (1): Radio on on node 1!
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:1, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:2, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:3, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:4, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:5, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:6, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:7, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:8, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:9, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:10, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:11, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:12, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:13, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:14, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:15, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:16, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:17, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:18, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:19, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:20, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:21, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:22, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:23, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:24, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (1): packet not acked
+DEBUG (2): Application booted.
+DEBUG (2): Radio on on node 2!
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:25, counter_transm: 0 
+DEBUG (1): Sending packet
+DEBUG (2): counter: 25
+DEBUG (2): type: 1
+DEBUG (2): value: 0
+DEBUG (1): the counter for ack is: 1
+DEBUG (2): temp read done 76.937514
+DEBUG (2): Answering packet
+DEBUG (1): counter: 25
+DEBUG (1): type: 2
+DEBUG (1): value: 76
+DEBUG (2): the counter for ack is: 1
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:26, counter_transm: 1 
+DEBUG (1): Sending packet
+DEBUG (2): counter: 26
+DEBUG (2): type: 1
+DEBUG (2): value: 0
+DEBUG (1): the counter for ack is: 2
+DEBUG (2): temp read done 69.073014
+DEBUG (2): Answering packet
+DEBUG (1): counter: 26
+DEBUG (1): type: 2
+DEBUG (1): value: 69
+DEBUG (2): the counter for ack is: 2
+DEBUG (1): -------------------------timer is on fire yeaahh
+DEBUG (1): coutner:27, counter_transm: 2 
+DEBUG (1): Sending packet
+DEBUG (2): counter: 27
+DEBUG (2): type: 1
+DEBUG (2): value: 0
+DEBUG (1): the counter for ack is: 3
+DEBUG (1): ----------------------------------stopping the timer
+DEBUG (2): temp read done 2.558938
+DEBUG (2): Answering packet
+DEBUG (1): counter: 27
+DEBUG (1): type: 2
+DEBUG (1): value: 2
+DEBUG (1): final ack
+DEBUG (1): final ack
+DEBUG (2): the counter for ack is: 3
+DEBUG (2): counter: 28
+DEBUG (2): type: 1
+DEBUG (2): value: 0
+DEBUG (1): the counter for ack is: 4
