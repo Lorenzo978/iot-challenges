@@ -1,0 +1,95 @@
+00:04.320	ID:2	Booting
+00:04.321	ID:2	Booting
+00:04.433	ID:4	Booting
+00:04.433	ID:4	Booting
+00:04.466	ID:1	Booting
+00:04.467	ID:1	Booting
+00:04.983	ID:3	Booting
+00:04.984	ID:3	Booting
+00:05.321	ID:2	Unicast_pairing received
+00:05.322	ID:2	Same key
+00:05.322	ID:2	Parent timer
+00:05.324	ID:2	locked:0, locked_key:1
+00:05.434	ID:4	Unicast_pairing received
+00:05.434	ID:4	Same key
+00:05.435	ID:4	Parent timer
+00:05.436	ID:4	locked:0, locked_key:1
+00:15.088	ID:2	Status: 3, PosX: 208, PosY: 237
+00:15.203	ID:4	Status: 3, PosX: 208, PosY: 237
+00:24.851	ID:2	Status: 3, PosX: 159, PosY: 28
+00:24.963	ID:4	Status: 3, PosX: 159, PosY: 28
+00:34.617	ID:2	Status: 3, PosX: 222, PosY: 175
+00:34.729	ID:4	Status: 3, PosX: 222, PosY: 175
+00:44.388	ID:2	Status: 3, PosX: 45, PosY: 230
+00:44.497	ID:4	Status: 3, PosX: 45, PosY: 230
+00:54.156	ID:2	Status: 3, PosX: 212, PosY: 89
+00:54.263	ID:4	Status: 3, PosX: 212, PosY: 89
+01:03.918	ID:2	Status: 3, PosX: 183, PosY: 252
+01:04.025	ID:4	Status: 3, PosX: 183, PosY: 252
+01:13.683	ID:2	Status: 3, PosX: 174, PosY: 47
+01:13.790	ID:4	Status: 3, PosX: 174, PosY: 47
+01:23.444	ID:2	Status: 3, PosX: 173, PosY: 246
+01:23.557	ID:4	Status: 3, PosX: 173, PosY: 246
+01:33.210	ID:2	Status: 1, PosX: 192, PosY: 49
+01:33.323	ID:4	Status: 1, PosX: 192, PosY: 49
+01:42.981	ID:2	Status: 3, PosX: 55, PosY: 20
+01:43.089	ID:4	Status: 3, PosX: 55, PosY: 20
+01:52.747	ID:2	Status: 1, PosX: 222, PosY: 39
+01:52.855	ID:4	Status: 1, PosX: 222, PosY: 39
+02:02.512	ID:2	Status: 1, PosX: 5, PosY: 74
+02:02.620	ID:4	Status: 1, PosX: 5, PosY: 74
+02:12.279	ID:2	Status: 1, PosX: 72, PosY: 9
+02:12.384	ID:4	Status: 1, PosX: 72, PosY: 9
+02:22.046	ID:2	Status: 1, PosX: 59, PosY: 212
+02:22.153	ID:4	Status: 1, PosX: 59, PosY: 212
+02:31.806	ID:2	Status: 2, PosX: 66, PosY: 243
+02:31.921	ID:4	Status: 2, PosX: 66, PosY: 243
+02:41.572	ID:2	Status: 2, PosX: 53, PosY: 178
+02:41.686	ID:4	Status: 2, PosX: 53, PosY: 178
+02:51.339	ID:2	Status: 2, PosX: 244, PosY: 225
+02:51.451	ID:4	Status: 2, PosX: 244, PosY: 225
+03:01.106	ID:2	Status: 2, PosX: 63, PosY: 20
+03:01.220	ID:4	Status: 2, PosX: 63, PosY: 20
+03:10.867	ID:2	Status: 1, PosX: 18, PosY: 191
+03:10.985	ID:4	Status: 1, PosX: 18, PosY: 191
+03:20.634	ID:2	Status: 3, PosX: 29, PosY: 26
+03:20.748	ID:4	Status: 3, PosX: 29, PosY: 26
+03:30.398	ID:2	Status: 3, PosX: 68, PosY: 81
+03:30.511	ID:4	Status: 3, PosX: 68, PosY: 81
+03:40.168	ID:2	WATCH OUT!!!!!!! YOUR CHILD IS FALLLING!!!!!
+03:40.170	ID:2	your child is here: posX 43, posY 36
+03:40.276	ID:4	WATCH OUT!!!!!!! YOUR CHILD IS FALLLING!!!!!
+03:40.278	ID:4	your child is here: posX 43, posY 36
+03:49.930	ID:2	Status: 1, PosX: 10, PosY: 71
+03:50.044	ID:4	Status: 1, PosX: 10, PosY: 71
+03:59.695	ID:2	Status: 1, PosX: 81, PosY: 242
+03:59.809	ID:4	Status: 1, PosX: 81, PosY: 242
+04:09.460	ID:2	Status: 3, PosX: 224, PosY: 161
+04:09.578	ID:4	Status: 3, PosX: 224, PosY: 161
+04:19.228	ID:2	Status: 3, PosX: 55, PosY: 172
+04:19.343	ID:4	Status: 3, PosX: 55, PosY: 172
+04:29.108	ID:4	Status: 3, PosX: 166, PosY: 191
+04:38.872	ID:4	Status: 3, PosX: 229, PosY: 26
+04:48.642	ID:4	Status: 3, PosX: 4, PosY: 217
+04:58.408	ID:4	Status: 3, PosX: 227, PosY: 180
+05:08.171	ID:4	Status: 3, PosX: 74, PosY: 175
+05:17.822	ID:2	MISSING CHILD!!!!!
+05:17.935	ID:4	Status: 3, PosX: 93, PosY: 198
+05:27.704	ID:4	Status: 2, PosX: 0, PosY: 169
+05:37.463	ID:4	WATCH OUT!!!!!!! YOUR CHILD IS FALLLING!!!!!
+05:37.466	ID:4	your child is here: posX 87, posY 160
+05:47.236	ID:4	Status: 3, PosX: 158, PosY: 31
+05:57.000	ID:4	Status: 3, PosX: 1, PosY: 62
+06:06.765	ID:4	Status: 2, PosX: 4, PosY: 77
+06:16.416	ID:2	MISSING CHILD!!!!!
+06:16.527	ID:4	Status: 2, PosX: 71, PosY: 172
+06:26.297	ID:4	Status: 3, PosX: 18, PosY: 215
+06:36.058	ID:4	Status: 3, PosX: 81, PosY: 206
+06:45.828	ID:4	Status: 3, PosX: 44, PosY: 85
+06:55.587	ID:4	Status: 2, PosX: 51, PosY: 8
+07:05.362	ID:4	Status: 2, PosX: 210, PosY: 235
+07:15.010	ID:2	MISSING CHILD!!!!!
+07:15.119	ID:4	Status: 2, PosX: 33, PosY: 250
+07:24.891	ID:4	Status: 2, PosX: 28, PosY: 241
+07:34.546	ID:2	Status: 2, PosX: 99, PosY: 192
+07:34.652	ID:4	Status: 2, PosX: 99, PosY: 192
